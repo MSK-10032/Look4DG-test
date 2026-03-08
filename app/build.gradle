@@ -1,0 +1,48 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'xyz._100320721.ba4ihr.look4dg'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "xyz._100320721.ba4ihr.look4dg"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // NanoHTTPD - 嵌入式HTTP服务器
+    implementation 'org.nanohttpd:nanohttpd:2.3.1'
+
+    // ZXing - 二维码生成
+    implementation 'com.google.zxing:core:3.5.2'
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+
+    // Java-WebSocket - WebSocket客户端
+    implementation 'org.java-websocket:Java-WebSocket:1.5.3'
+
+    // 可选：用于JSON解析
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
