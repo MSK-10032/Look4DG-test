@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
-        google()                 // Android 插件仓库
-        mavenCentral()           // 其他插件可能需要的仓库
-        gradlePluginPortal()     // Gradle 核心插件门户
+        google()
+        mavenCentral()
+        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
