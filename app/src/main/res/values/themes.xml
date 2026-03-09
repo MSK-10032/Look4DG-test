@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Look4DG" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- 可自定义主题属性，例如： -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- 如果你没有 colors.xml，需要补充颜色定义，或使用默认值 -->
+    </style>
+</resources>
