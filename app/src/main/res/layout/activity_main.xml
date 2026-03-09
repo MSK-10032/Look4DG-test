@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_service"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/service_status"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_satellite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/satellite_data"
+        android:textSize="14sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/device_orientation"
+        android:textSize="14sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_strength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/current_strength"
+        android:textSize="14sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_config_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/config_url"
+        android:textSize="12sp"
+        android:padding="8dp"
+        android:textColor="@android:color/darker_gray"/>
+
+</LinearLayout>
