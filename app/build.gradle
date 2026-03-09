@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace 'xyz._100320721.ba4ihr.look4dg'
+    namespace 'qrz.ba4ihr.look4dg'
     compileSdk 33
 
     defaultConfig {
-        applicationId "xyz._100320721.ba4ihr.look4dg"
+        applicationId "qrz.ba4ihr.look4dg"
         minSdk 21
         targetSdk 33
         versionCode 1
