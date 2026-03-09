@@ -19,8 +19,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Build with Gradle
-      run: ./gradlew assembleDebug
+    - name: Build with Gradle Wrapper   # 关键修改
+      run: ./gradlew assembleDebug       # 使用 wrapper
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
